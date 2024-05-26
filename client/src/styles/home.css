@@ -1,0 +1,92 @@
+.home {
+    height: auto;
+    width: auto;
+}
+
+.home_upper_container {
+    height: 260px;
+    text-align: center;
+}
+
+.home_content {
+    padding: 100px 0px 0px 0px;
+}
+
+.home_content h1 {
+    font-size: 4rem;
+    line-height: 15px;
+}
+
+.home_content p {
+    font-size: 1.1rem;
+}
+
+.view_link {
+    margin-top: 30px;
+}
+
+.view_link:hover {
+    text-decoration: underline;
+}
+
+.home_lower_container {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.postcard {
+    width: 400px;
+    max-height: 400px;
+    color: black;
+    border: 1px solid purple;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: all ease-in-out 0.2s;
+
+}
+
+.postcard h2 {
+    font-size: 1.3rem;
+}
+
+.postcard p {
+    font-weight: 500;
+}
+
+.postcard img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.post_container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.all_post {
+    padding-top: 30px;
+    font-size: 1.1rem;
+}
+
+.all_post:hover {
+    text-decoration: underline;
+}
+
+.post_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post_page h1 {
+    text-align: center;
+}
+
+.post_page h2 {
+    text-align: center;
+}

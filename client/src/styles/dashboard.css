@@ -1,0 +1,186 @@
+.sidebar {
+    width: 200px;
+    height: 70vh;
+    border-right: 1px solid black;
+}
+
+.sidebar_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.sidebar_link {
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.sidebar_link:hover {
+    color: purple;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.dash_container {
+    width: 100%;
+    height: 100%;
+}
+
+.dash_upper_container {
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.dash_likes {
+    width: 290px;
+    height: 150px;
+    display: flex;
+    gap: 80px;
+    border: 1px solid purple;
+}
+
+.dash_likes img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.dash_likes_heading {
+    font-size: 1.3rem;
+}
+
+.dash_like_no {
+    font-size: 1.8rem;
+    margin: 0%;
+}
+
+.dash_month {
+    font-size: 1rem;
+}
+
+.dash_likes_content {
+    padding-left: 20px;
+}
+
+.dash_lower_container {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.dash_user {
+    width: 28%;
+    margin-left: 150px;
+    border: 1px solid purple;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.dash_user::-webkit-scrollbar {
+    display: none;
+}
+
+
+.dash_comment {
+    position: relative;
+    width: 43%;
+    overflow-y: scroll;
+    border: 1px solid purple;
+}
+
+.dash_comment::-webkit-scrollbar {
+    display: none;
+}
+
+.user_heading {
+    padding-left: 20px;
+}
+
+.image_heading {
+    display: flex;
+    gap: 60px;
+    padding-left: 30px;
+}
+
+.dash_login_user {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 50px;
+}
+
+.dash_login_user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dash_comment {
+    padding-left: 20px;
+}
+
+.comment_heading {
+    padding: 0%;
+}
+
+.comment_header {
+    margin: 0%;
+}
+
+.comment_content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.recent_post_container {
+    width: 855px;
+    height: auto;
+    margin: 30px 0px 0px 150px;
+    overflow-y: scroll;
+    border: 1px solid purple;
+    position: relative;
+}
+
+.recent_post_container::-webkit-scrollbar {
+    display: none;
+}
+
+.recent_post_content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.recent_post_content img {
+    width: 100px;
+    height: 80px;
+    border: 1px solid purple;
+}
+
+.delete_icon {
+    cursor: pointer;
+}
+
+.link_view {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.admin_post {
+    display: flex;
+    gap: 20%;
+}

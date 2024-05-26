@@ -1,0 +1,55 @@
+.form_container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.form_left {
+    width: 50%;
+}
+
+.form_left_content {
+    padding: 0px 0px 80px 220px;
+}
+
+.form_right {
+    width: 27%;
+    height: 60%;
+}
+
+.form_right input {
+    display: block;
+    padding: 10px 0px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form_logo span{
+    font-size: 2.7rem;
+}
+
+.login_btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid purple;
+    background-color: purple;
+}
